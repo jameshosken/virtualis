@@ -9,26 +9,107 @@ ModelImporter:
     100006: Office_Bubble.Outside
     100008: Office_Bubble.Seam
     100010: //RootNode
+    100012: Bubble.Avatar
+    100014: Bubble.Front
+    100016: Bubble.Hallway
+    100018: Bubble.Portal
+    100020: Bubble.Screening
+    100022: Bubble.Waiting
+    100024: Floor.Exclusion
+    100026: Plane
+    100028: Sun
+    100030: Tunnel.AvatrPortal
+    100032: Tunnel.Entrance
+    100034: Tunnel.FrontWaiting
+    100036: Tunnel.HallwayAvatat
+    100038: Tunnel.PortalFront
+    100040: Tunnel.ScreeningHallway
+    100042: Tunnel.WaitingScreening
     400000: Architecture
     400002: Floor
     400004: Office_Bubble.Inside
     400006: Office_Bubble.Outside
     400008: Office_Bubble.Seam
     400010: //RootNode
+    400012: Bubble.Avatar
+    400014: Bubble.Front
+    400016: Bubble.Hallway
+    400018: Bubble.Portal
+    400020: Bubble.Screening
+    400022: Bubble.Waiting
+    400024: Floor.Exclusion
+    400026: Plane
+    400028: Sun
+    400030: Tunnel.AvatrPortal
+    400032: Tunnel.Entrance
+    400034: Tunnel.FrontWaiting
+    400036: Tunnel.HallwayAvatat
+    400038: Tunnel.PortalFront
+    400040: Tunnel.ScreeningHallway
+    400042: Tunnel.WaitingScreening
     2100000: Floor
     2100002: Wall.Interior
+    2100004: Walls.Purple
+    2100006: Walls.Yellow
+    2100008: No Name
     2300000: Floor
     2300002: Office_Bubble.Inside
     2300004: Office_Bubble.Outside
     2300006: Office_Bubble.Seam
+    2300008: Bubble.Avatar
+    2300010: Bubble.Front
+    2300012: Bubble.Hallway
+    2300014: Bubble.Portal
+    2300016: Bubble.Screening
+    2300018: Bubble.Waiting
+    2300020: Floor.Exclusion
+    2300022: Plane
+    2300024: Tunnel.AvatrPortal
+    2300026: Tunnel.Entrance
+    2300028: Tunnel.FrontWaiting
+    2300030: Tunnel.HallwayAvatat
+    2300032: Tunnel.PortalFront
+    2300034: Tunnel.ScreeningHallway
+    2300036: Tunnel.WaitingScreening
     3300000: Floor
     3300002: Office_Bubble.Inside
     3300004: Office_Bubble.Outside
     3300006: Office_Bubble.Seam
+    3300008: Bubble.Avatar
+    3300010: Bubble.Front
+    3300012: Bubble.Hallway
+    3300014: Bubble.Portal
+    3300016: Bubble.Screening
+    3300018: Bubble.Waiting
+    3300020: Floor.Exclusion
+    3300022: Plane
+    3300024: Tunnel.AvatrPortal
+    3300026: Tunnel.Entrance
+    3300028: Tunnel.FrontWaiting
+    3300030: Tunnel.HallwayAvatat
+    3300032: Tunnel.PortalFront
+    3300034: Tunnel.ScreeningHallway
+    3300036: Tunnel.WaitingScreening
     4300000: Floor
     4300002: Office_Bubble.Seam
     4300004: Office_Bubble.Outside
     4300006: Office_Bubble.Inside
+    4300008: Bubble.Front
+    4300010: Bubble.Waiting
+    4300012: Bubble.Avatar
+    4300014: Bubble.Portal
+    4300016: Bubble.Screening
+    4300018: Bubble.Hallway
+    4300020: Tunnel.FrontWaiting
+    4300022: Tunnel.WaitingScreening
+    4300024: Tunnel.ScreeningHallway
+    4300026: Tunnel.HallwayAvatat
+    4300028: Tunnel.AvatrPortal
+    4300030: Tunnel.PortalFront
+    4300032: Floor.Exclusion
+    4300034: Tunnel.Entrance
+    4300036: Plane
+    10800000: Sun
   externalObjects: {}
   materials:
     importMaterials: 1

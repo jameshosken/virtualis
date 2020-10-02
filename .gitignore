@@ -10,6 +10,7 @@
 **/[Ll]ogs/
 **/[Uu]ser[Ss]ettings/
 **/[Uu]don/
+**/[Pp]lugins/
 **/VRCSDK/
 
 # MemoryCaptures can get excessive in size.
@@ -35,6 +36,7 @@
 ExportedObj/
 .consulo/
 *.csproj
+#*.unityproj
 *.sln
 *.suo
 *.tmp

@@ -105,13 +105,13 @@ MonoBehaviour:
       is the node that actually changes the LocalPlayer''s avatar to the one listed
       under ''Blueprint Id'' on the VRC Avatar Pedestal","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: cddf633d-d48d-4bda-954f-1d0dd8f691c2
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":206.0,"height":100.0}}'
+    uid: e787e73f-2597-4a3b-8f50-1a561c72321d
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":233.0,"height":115.0}}'
   - type: 4
-    uid: 46d8d053-df09-42aa-b83b-0d8d8bbabc43
+    uid: 03b2058a-94be-4261-b52e-bb854f82d765
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 787.5366, y: 622.19214}
-    scale: 0.7561437
+    position: {x: 550.4978, y: 350.1254}
+    scale: 0.65751624
   version: 1.0.0
   showAssembly: 0

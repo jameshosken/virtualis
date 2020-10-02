@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: cf394ce27d4747247bcca190d894cb73
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Architecture
+    100002: Bubble.Avatar
+    100004: Bubble.Front
+    100006: Bubble.Hallway
+    100008: Bubble.Portal
+    100010: Bubble.Screening
+    100012: Bubble.Waiting
+    100014: Floor.Exclusion
+    100016: Office_Bubble.Inside
+    100018: //RootNode
+    100020: Plane
+    100022: Tunnel.AvatrPortal
+    100024: Tunnel.Entrance
+    100026: Tunnel.FrontWaiting
+    100028: Tunnel.HallwayAvatat
+    100030: Tunnel.PortalFront
+    100032: Tunnel.ScreeningHallway
+    100034: Tunnel.WaitingScreening
+    400000: Architecture
+    400002: Bubble.Avatar
+    400004: Bubble.Front
+    400006: Bubble.Hallway
+    400008: Bubble.Portal
+    400010: Bubble.Screening
+    400012: Bubble.Waiting
+    400014: Floor.Exclusion
+    400016: Office_Bubble.Inside
+    400018: //RootNode
+    400020: Plane
+    400022: Tunnel.AvatrPortal
+    400024: Tunnel.Entrance
+    400026: Tunnel.FrontWaiting
+    400028: Tunnel.HallwayAvatat
+    400030: Tunnel.PortalFront
+    400032: Tunnel.ScreeningHallway
+    400034: Tunnel.WaitingScreening
+    2100000: Walls.Purple
+    2100002: Wall.Interior
+    2100004: Walls.Yellow
+    2100006: No Name
+    2300000: Bubble.Avatar
+    2300002: Bubble.Front
+    2300004: Bubble.Hallway
+    2300006: Bubble.Portal
+    2300008: Bubble.Screening
+    2300010: Bubble.Waiting
+    2300012: Floor.Exclusion
+    2300014: Office_Bubble.Inside
+    2300016: Plane
+    2300018: Tunnel.AvatrPortal
+    2300020: Tunnel.Entrance
+    2300022: Tunnel.FrontWaiting
+    2300024: Tunnel.HallwayAvatat
+    2300026: Tunnel.PortalFront
+    2300028: Tunnel.ScreeningHallway
+    2300030: Tunnel.WaitingScreening
+    3300000: Bubble.Avatar
+    3300002: Bubble.Front
+    3300004: Bubble.Hallway
+    3300006: Bubble.Portal
+    3300008: Bubble.Screening
+    3300010: Bubble.Waiting
+    3300012: Floor.Exclusion
+    3300014: Office_Bubble.Inside
+    3300016: Plane
+    3300018: Tunnel.AvatrPortal
+    3300020: Tunnel.Entrance
+    3300022: Tunnel.FrontWaiting
+    3300024: Tunnel.HallwayAvatat
+    3300026: Tunnel.PortalFront
+    3300028: Tunnel.ScreeningHallway
+    3300030: Tunnel.WaitingScreening
+    4300000: Bubble.Front
+    4300002: Office_Bubble.Inside
+    4300004: Bubble.Waiting
+    4300006: Bubble.Avatar
+    4300008: Bubble.Portal
+    4300010: Bubble.Screening
+    4300012: Bubble.Hallway
+    4300014: Tunnel.FrontWaiting
+    4300016: Tunnel.WaitingScreening
+    4300018: Tunnel.ScreeningHallway
+    4300020: Tunnel.HallwayAvatat
+    4300022: Tunnel.AvatrPortal
+    4300024: Tunnel.PortalFront
+    4300026: Floor.Exclusion
+    4300028: Tunnel.Entrance
+    4300030: Plane
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
