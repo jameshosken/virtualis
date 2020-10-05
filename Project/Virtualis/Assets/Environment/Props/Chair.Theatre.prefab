@@ -175,7 +175,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 0
 --- !u!4 &7326923351198889022
 Transform:
@@ -216,7 +216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1c987494452b85f4ab4cac3322415907, type: 2}
+  - {fileID: 2100000, guid: e5d141690d155714fb87f8b0065149e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -336,15 +336,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_LocalPosition.x
@@ -396,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3d4274f1e9cd52546948d2c0660ce38f, type: 2}
     - target: {fileID: 2300000, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_ReceiveShadows
@@ -408,7 +408,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6d5b05a2b5f36d749835e7ef051406ee, type: 2}
     - target: {fileID: 2300002, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300004, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -416,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6d5b05a2b5f36d749835e7ef051406ee, type: 2}
     - target: {fileID: 2300004, guid: d2a377b97363a554a96a26b876de1213, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2a377b97363a554a96a26b876de1213, type: 3}

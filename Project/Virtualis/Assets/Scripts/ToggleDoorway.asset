@@ -32,7 +32,7 @@ MonoBehaviour:
     nodes:
     - fullName: Event_Interact
       uid: 832e5cdf-2891-4f85-b6ec-53a294b1e8e1
-      position: {x: 279.38702, y: -134.36404}
+      position: {x: 278.72952, y: -134.36404}
       nodeUIDs: []
       flowUIDs:
       - 05af2415-c84b-446f-b0e1-ae00628a6419
@@ -82,7 +82,7 @@ MonoBehaviour:
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
     - fullName: UnityEngineGameObject.__get_activeSelf__SystemBoolean
       uid: 912af81b-c109-4f60-be79-3b38deee6660
-      position: {x: -12.05197, y: 163.93767}
+      position: {x: -12.051966, y: 164.59518}
       nodeUIDs:
       - df1853de-5958-4a04-89ef-bc2ae0c8da67|0
       flowUIDs: []
@@ -100,13 +100,13 @@ MonoBehaviour:
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
   graphElementData:
   - type: 5
-    uid: 34c7bc6d-6daa-451f-918a-3d8033f3135e
+    uid: 2a691e7b-4ba2-4023-b12d-60e6be0e08cf
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":29.0,"width":242.0,"height":254.0}}'
   - type: 4
-    uid: b0a834f9-7717-4aeb-8545-53f3c5ff1fd2
+    uid: f2c3f60c-e77a-4460-87bc-492bf3edcfa6
     jsonData: '{"visible":false,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 468.80728, y: 122.56597}
-    scale: 0.8695652
+    position: {x: 113.857605, y: 303.06937}
+    scale: 1.520875
   version: 1.0.0
   showAssembly: 0

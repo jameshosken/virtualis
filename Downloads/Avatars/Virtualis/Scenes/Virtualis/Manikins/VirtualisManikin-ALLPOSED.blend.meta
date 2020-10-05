@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 9ed645be2c8be8c4a9d08ad67beb0661
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Chest
+    100006: Head
+    100008: Head_end
+    100010: Hips
+    100012: Index_01_L
+    100014: Index_01_R
+    100016: IndexFinger2_L
+    100018: IndexFinger2_R
+    100020: IndexFinger3_L
+    100022: IndexFinger3_L_end
+    100024: IndexFinger3_R
+    100026: IndexFinger3_R_end
+    100028: Left ankle
+    100030: Left arm
+    100032: Left elbow
+    100034: Left knee
+    100036: Left leg
+    100038: Left shoulder
+    100040: Left wrist
+    100042: LittleFinger1_L
+    100044: LittleFinger1_R
+    100046: LittleFinger2_L
+    100048: LittleFinger2_R
+    100050: LittleFinger3_L
+    100052: LittleFinger3_L_end
+    100054: LittleFinger3_R
+    100056: LittleFinger3_R_end
+    100058: MiddleFinger1_L
+    100060: MiddleFinger1_R
+    100062: MiddleFinger2_L
+    100064: MiddleFinger2_R
+    100066: MiddleFinger3_L
+    100068: MiddleFinger3_L_end
+    100070: MiddleFinger3_R
+    100072: MiddleFinger3_R_end
+    100074: Neck
+    100076: Prop
+    100078: Right ankle
+    100080: Right arm
+    100082: Right elbow
+    100084: Right knee
+    100086: Right leg
+    100088: Right shoulder
+    100090: Right wrist
+    100092: RingFinger1_L
+    100094: RingFinger1_R
+    100096: RingFinger2_L
+    100098: RingFinger2_R
+    100100: RingFinger3_L
+    100102: RingFinger3_L_end
+    100104: RingFinger3_R
+    100106: RingFinger3_R_end
+    100108: Spine
+    100110: Thumb0_L
+    100112: Thumb0_R
+    100114: Thumb1_L
+    100116: Thumb1_R
+    100118: Thumb2_L
+    100120: Thumb2_L_end
+    100122: Thumb2_R
+    100124: Thumb2_R_end
+    100126: Toe_L
+    100128: Toe_L_end
+    100130: Toe_R
+    100132: Toe_R_end
+    100134: //RootNode
+    100136: Body.001
+    100138: Body.002
+    100140: Body.003
+    100142: Body.004
+    100144: Body.005
+    400000: Armature
+    400002: Body
+    400004: Chest
+    400006: Head
+    400008: Head_end
+    400010: Hips
+    400012: Index_01_L
+    400014: Index_01_R
+    400016: IndexFinger2_L
+    400018: IndexFinger2_R
+    400020: IndexFinger3_L
+    400022: IndexFinger3_L_end
+    400024: IndexFinger3_R
+    400026: IndexFinger3_R_end
+    400028: Left ankle
+    400030: Left arm
+    400032: Left elbow
+    400034: Left knee
+    400036: Left leg
+    400038: Left shoulder
+    400040: Left wrist
+    400042: LittleFinger1_L
+    400044: LittleFinger1_R
+    400046: LittleFinger2_L
+    400048: LittleFinger2_R
+    400050: LittleFinger3_L
+    400052: LittleFinger3_L_end
+    400054: LittleFinger3_R
+    400056: LittleFinger3_R_end
+    400058: MiddleFinger1_L
+    400060: MiddleFinger1_R
+    400062: MiddleFinger2_L
+    400064: MiddleFinger2_R
+    400066: MiddleFinger3_L
+    400068: MiddleFinger3_L_end
+    400070: MiddleFinger3_R
+    400072: MiddleFinger3_R_end
+    400074: Neck
+    400076: Prop
+    400078: Right ankle
+    400080: Right arm
+    400082: Right elbow
+    400084: Right knee
+    400086: Right leg
+    400088: Right shoulder
+    400090: Right wrist
+    400092: RingFinger1_L
+    400094: RingFinger1_R
+    400096: RingFinger2_L
+    400098: RingFinger2_R
+    400100: RingFinger3_L
+    400102: RingFinger3_L_end
+    400104: RingFinger3_R
+    400106: RingFinger3_R_end
+    400108: Spine
+    400110: Thumb0_L
+    400112: Thumb0_R
+    400114: Thumb1_L
+    400116: Thumb1_R
+    400118: Thumb2_L
+    400120: Thumb2_L_end
+    400122: Thumb2_R
+    400124: Thumb2_R_end
+    400126: Toe_L
+    400128: Toe_L_end
+    400130: Toe_R
+    400132: Toe_R_end
+    400134: //RootNode
+    400136: Body.001
+    400138: Body.002
+    400140: Body.003
+    400142: Body.004
+    400144: Body.005
+    2100000: Manikin
+    2100002: Transparent
+    2100004: Manikin.001
+    2100006: Manakin-Parasol
+    2100008: Manikin.002
+    2100010: Manikin.003
+    2100012: Manikin.004
+    4300000: Prop
+    4300002: Body
+    4300004: Body.001
+    4300006: Body.002
+    4300008: Body.003
+    4300010: Body.004
+    4300012: Body.005
+    7400000: Armature|Pose1
+    7400002: Armature|Pose2
+    7400004: Armature|Rest
+    7400006: Armature|Pose3
+    7400008: Armature|Pose4
+    7400010: Armature|Pose5
+    7400012: Armature|Pose6
+    9500000: //RootNode
+    13700000: Body
+    13700002: Prop
+    13700004: Body.001
+    13700006: Body.002
+    13700008: Body.003
+    13700010: Body.004
+    13700012: Body.005
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
