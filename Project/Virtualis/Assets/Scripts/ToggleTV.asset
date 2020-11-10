@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: ToggleTV
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: cbf47f51777a13d449910a146bd5df30,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export TVScreen\r\n    \r\n    Boolean_0:
+    %SystemBoolean, null\r\n    instance_0: %VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer,
+    null\r\n    Type_0: %SystemType, null\r\n    instance_2: %VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer,
+    null\r\n    Type_1: %SystemType, null\r\n    instance_3: %VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer,
+    null\r\n    instance_1: %UnityEngineGameObject, this\r\n    type_0: %SystemType,
+    null\r\n    Type_2: %SystemType, null\r\n    TVScreen: %UnityEngineGameObject,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _interact\r\n    \r\n
+    \   _interact:\r\n    \r\n        PUSH, TVScreen\r\n        PUSH, instance_1\r\n
+    \       COPY\r\n        PUSH, Type_0\r\n        PUSH, type_0\r\n        COPY\r\n
+    \       PUSH, instance_1\r\n        PUSH, type_0\r\n        PUSH, instance_0\r\n
+    \       EXTERN, \"UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent\"\r\n
+    \       PUSH, instance_0\r\n        PUSH, Boolean_0\r\n        EXTERN, \"VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_IsPlaying__SystemBoolean\"\r\n
+    \       PUSH, Boolean_0\r\n        JUMP_IF_FALSE, 0x000000C4\r\n        PUSH,
+    TVScreen\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH, Type_1\r\n
+    \       PUSH, type_0\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH,
+    instance_2\r\n        COPY\r\n        PUSH, instance_0\r\n        EXTERN, \"VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Stop__SystemVoid\"\r\n
+    \       JUMP, 0x00000110\r\n        PUSH, TVScreen\r\n        PUSH, instance_1\r\n
+    \       COPY\r\n        PUSH, Type_2\r\n        PUSH, type_0\r\n        COPY\r\n
+    \       PUSH, instance_0\r\n        PUSH, instance_3\r\n        COPY\r\n        PUSH,
+    instance_0\r\n        EXTERN, \"VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Play__SystemVoid\"\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Event_Interact
+      uid: 55d006a5-4d05-4f61-bd3f-c9ee504f5665
+      position: {x: 602.7002, y: -185.10007}
+      nodeUIDs: []
+      flowUIDs:
+      - 1b2deb35-cfb3-4d7b-b42a-2f12b91c5790
+      nodeValues: []
+    - fullName: Variable_UnityEngineGameObject
+      uid: a76f7cbb-84d9-4482-ac46-d87ae5d70b52
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|TVScreen
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: b59123bf-42a9-49fd-a3c7-f86d2c5ffbfa
+      position: {x: -135.4, y: 60.40001}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|a76f7cbb-84d9-4482-ac46-d87ae5d70b52
+    - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+      uid: 49220a46-4a86-437f-ba27-ab7a7f102202
+      position: {x: 1361.3033, y: 490.87683}
+      nodeUIDs:
+      - 
+      - 27971448-8099-4509-9c79-b250e4cc6e3b|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: UnityEngineGameObject.__get_activeSelf__SystemBoolean
+      uid: 6b2cddf9-7660-4547-8c42-4556fc2bfebb
+      position: {x: 674.8231, y: 678.32935}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean
+      uid: 27971448-8099-4509-9c79-b250e4cc6e3b
+      position: {x: 999.82324, y: 675.3293}
+      nodeUIDs:
+      - 6b2cddf9-7660-4547-8c42-4556fc2bfebb|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Play__SystemVoid
+      uid: 37ff2961-dd4d-46c1-9764-a082b343ca8d
+      position: {x: 690.82324, y: 778.32935}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent
+      uid: 270bad7a-a056-4723-8f7d-78de6faf9323
+      position: {x: 94.67255, y: 149.20108}
+      nodeUIDs:
+      - b59123bf-42a9-49fd-a3c7-f86d2c5ffbfa|0
+      - ff12b674-7da9-4126-a1d8-42408cb3eb77|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Type_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer
+      uid: ff12b674-7da9-4126-a1d8-42408cb3eb77
+      position: {x: -206.56679, y: 318.97617}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Play__SystemVoid
+      uid: 34b0de20-b3bb-4a3e-9e5e-e4f114f0d6a5
+      position: {x: 1116.395, y: -125.63997}
+      nodeUIDs:
+      - 270bad7a-a056-4723-8f7d-78de6faf9323|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_IsPlaying__SystemBoolean
+      uid: 2824691e-a935-4bd2-a9bd-b8f451603318
+      position: {x: 420.4386, y: -4.264084}
+      nodeUIDs:
+      - 270bad7a-a056-4723-8f7d-78de6faf9323|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Branch
+      uid: 1b2deb35-cfb3-4d7b-b42a-2f12b91c5790
+      position: {x: 850.1539, y: -82.16369}
+      nodeUIDs:
+      - 2824691e-a935-4bd2-a9bd-b8f451603318|0
+      flowUIDs:
+      - b6de1424-fa6e-4e9a-b5dd-83e897e3a71c
+      - 34b0de20-b3bb-4a3e-9e5e-e4f114f0d6a5
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Stop__SystemVoid
+      uid: b6de1424-fa6e-4e9a-b5dd-83e897e3a71c
+      position: {x: 1113.204, y: -11.80368}
+      nodeUIDs:
+      - 270bad7a-a056-4723-8f7d-78de6faf9323|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+  graphElementData:
+  - type: 5
+    uid: 817588e9-74d8-4b73-b0d7-ad040a5dcec4
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":11.0,"y":130.0,"width":122.0,"height":288.0}}'
+  - type: 4
+    uid: 8598c68a-fe6f-41f7-892d-fe67d599d1ac
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
+  viewTransform:
+    position: {x: 388.6891, y: 221.9601}
+    scale: 0.375937
+  version: 1.0.0
+  showAssembly: 0

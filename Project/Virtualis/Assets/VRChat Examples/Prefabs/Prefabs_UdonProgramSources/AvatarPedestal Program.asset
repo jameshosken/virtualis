@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: AvatarPedestal Program
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b7b0868fc4ecb234eb7c1b6e1e9be970,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9ee9653c6f3deb1489bb8774c6a53422,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    \r\n    instance_0: %VRCSDK3ComponentsVRCAvatarPedestal,
     null\r\n    instigator_0: %VRCSDKBaseVRCPlayerApi, null\r\n    instance_1: %UnityEngineGameObject,
@@ -105,13 +105,13 @@ MonoBehaviour:
       is the node that actually changes the LocalPlayer''s avatar to the one listed
       under ''Blueprint Id'' on the VRC Avatar Pedestal","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: e787e73f-2597-4a3b-8f50-1a561c72321d
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":233.0,"height":115.0}}'
+    uid: cddf633d-d48d-4bda-954f-1d0dd8f691c2
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":206.0,"height":100.0}}'
   - type: 4
-    uid: 03b2058a-94be-4261-b52e-bb854f82d765
+    uid: 46d8d053-df09-42aa-b83b-0d8d8bbabc43
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 550.4978, y: 350.1254}
-    scale: 0.65751624
+    position: {x: 787.5366, y: 622.19214}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
